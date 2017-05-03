@@ -14,8 +14,8 @@
         <div class="collapse navbar-collapse" id="julian-jordan-navigation">
             <ul class="nav navbar-nav navbar-right">
                 <li><a class="page-scroll" href="#about">About</a></li>
-                <li><a class="page-scroll" href="#music">Music</a></li>
                 <li><a class="page-scroll" href="#tour">Tour</a></li>
+                <li><a class="page-scroll" href="#music">Music</a></li>
                 <li><a target="_blank" href="http://www.julianjordanshop.com/">Shop</a></li>
                 <li><a target="_blank" href="http://eepurl.com/bPGhOD">Newsletter</a></li>
                 <li><a class="page-scroll" href="#footer">Contact</a></li>
