@@ -1,0 +1,290 @@
+html, body {
+  height: 100%; }
+
+body {
+  background-color: #000; }
+
+@font-face {
+  font-family: "AvenirLTStd-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/AvenirLTStd-Light-webfont.eot");
+  src: url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.woff?#iefix") format("embedded-opentype"), url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.ttf") format("truetype"), url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.svg?#AvenirLTStd-Light") format("esvg"); }
+.navbar-default {
+  background-color: transparent;
+  border: none; }
+  .navbar-default .navbar-header .logo {
+    height: 20px; }
+  .navbar-default .navbar-nav li a {
+    font-family: "AvenirLTStd-Light", "sans-serif";
+    font-weight: normal;
+    letter-spacing: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff; }
+    .navbar-default .navbar-nav li a:hover {
+      color: #bbb; }
+  @media (max-width: 768px) {
+    .navbar-default .navbar-nav li a.socials {
+      display: none; } }
+  .navbar-default .navbar-toggle {
+    border: none; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #fff; }
+
+nav {
+  padding: 8px;
+  -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  transition: background .5s ease-in-out,padding .5s ease-in-out; }
+  nav.top-nav-collapse {
+    padding: 0;
+    background: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+
+@font-face {
+  font-family: "AvenirLTStd-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/AvenirLTStd-Light-webfont.eot");
+  src: url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.woff?#iefix") format("embedded-opentype"), url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.ttf") format("truetype"), url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.svg?#AvenirLTStd-Light") format("esvg"); }
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px black;
+  box-shadow: inset 0 0 100px black;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.2), black); }
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top; }
+  .site-wrapper-inner .cover-container {
+    margin-right: auto;
+    margin-left: auto; }
+    .site-wrapper-inner .cover-container .inner {
+      padding: 30px; }
+    .site-wrapper-inner .cover-container .cover {
+      padding: 0 20px; }
+      .site-wrapper-inner .cover-container .cover h1 {
+        font-size: 100px; }
+        @media (max-width: 768px) {
+          .site-wrapper-inner .cover-container .cover h1 {
+            font-size: 40px;
+            margin-top: 200px; } }
+        @media (max-width: 480px) {
+          .site-wrapper-inner .cover-container .cover h1 {
+            font-size: 40px;
+            margin-top: 200px; } }
+      .site-wrapper-inner .cover-container .cover h1, .site-wrapper-inner .cover-container .cover p {
+        font-family: "AvenirLTStd-Light", "sans-serif";
+        font-weight: normal;
+        letter-spacing: 0;
+        color: #fff; }
+      .site-wrapper-inner .cover-container .cover .btn-circle {
+        color: #fff; }
+
+@media (min-width: 768px) {
+  .site-wrapper-inner {
+    vertical-align: middle; }
+
+  .cover-container {
+    width: 100%; } }
+@media (min-width: 992px) {
+  .cover-container {
+    width: 700px; } }
+@font-face {
+  font-family: "AvenirLTStd-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/AvenirLTStd-Light-webfont.eot");
+  src: url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.woff?#iefix") format("embedded-opentype"), url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.ttf") format("truetype"), url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.svg?#AvenirLTStd-Light") format("esvg"); }
+#about {
+  padding: 200px 0; }
+  #about h3, #about p {
+    font-family: "AvenirLTStd-Light", "sans-serif";
+    font-weight: normal;
+    letter-spacing: 0;
+    color: #fff; }
+  @media (max-width: 480px) {
+    #about {
+      padding: 100px 0; } }
+
+@font-face {
+  font-family: "AvenirLTStd-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/AvenirLTStd-Light-webfont.eot");
+  src: url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.woff?#iefix") format("embedded-opentype"), url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.ttf") format("truetype"), url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.svg?#AvenirLTStd-Light") format("esvg"); }
+#music {
+  padding: 200px 0;
+  background-image: url("../../img/jjshop.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+  #music h3, #music p {
+    font-family: "AvenirLTStd-Light", "sans-serif";
+    font-weight: normal;
+    letter-spacing: 0;
+    color: #fff; }
+  #music .track {
+    position: relative; }
+    #music .track .text-content {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      cursor: pointer;
+      text-align: center;
+      opacity: 0;
+      -webkit-transition: opacity 300ms;
+      -moz-transition: opacity 300ms;
+      -o-transition: opacity 300ms;
+      transition: opacity 300ms; }
+      #music .track .text-content span {
+        position: relative;
+        display: block;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 80px; }
+      #music .track .text-content:hover {
+        opacity: 1; }
+    #music .track .pause-btn {
+      display: none; }
+    @media (max-width: 768px) {
+      #music .track {
+        padding: 15px 0; } }
+    @media (max-width: 480px) {
+      #music .track {
+        padding: 20px 0; } }
+  @media (max-width: 480px) {
+    #music {
+      padding: 100px 0; } }
+
+@font-face {
+  font-family: "AvenirLTStd-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/AvenirLTStd-Light-webfont.eot");
+  src: url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.woff?#iefix") format("embedded-opentype"), url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.ttf") format("truetype"), url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.svg?#AvenirLTStd-Light") format("esvg"); }
+#tour {
+  padding: 200px 0;
+  background-color: #fff; }
+  #tour h4, #tour p {
+    font-family: "AvenirLTStd-Light", "sans-serif";
+    font-weight: normal;
+    letter-spacing: 0;
+    color: #000; }
+    @media (max-width: 480px) {
+      #tour h4, #tour p {
+        font-size: 14px; } }
+  #tour h4 {
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-transform: uppercase; }
+  #tour .row {
+    margin-bottom: 1px; }
+    #tour .row .date {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: grey; }
+      #tour .row .date p {
+        margin-bottom: 0;
+        color: #fff; }
+    #tour .row .info p img {
+      margin-top: -2px;
+      padding-right: 2px; }
+    #tour .row .btn-default {
+      font-family: "AvenirLTStd-Light", "sans-serif";
+      font-weight: normal;
+      letter-spacing: 0;
+      margin-top: 15px; }
+      @media (max-width: 480px) {
+        #tour .row .btn-default {
+          margin-top: 0;
+          margin-bottom: 6px; } }
+  @media (max-width: 480px) {
+    #tour {
+      padding: 100px 0; } }
+
+@font-face {
+  font-family: "AvenirLTStd-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/AvenirLTStd-Light-webfont.eot");
+  src: url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.woff?#iefix") format("embedded-opentype"), url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.ttf") format("truetype"), url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.svg?#AvenirLTStd-Light") format("esvg"); }
+#shop {
+  padding: 200px 0;
+  background-color: #fff; }
+  #shop .shop-item {
+    position: relative; }
+    #shop .shop-item .text-content {
+      font-family: "AvenirLTStd-Light", "sans-serif";
+      font-weight: normal;
+      letter-spacing: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      cursor: pointer;
+      text-align: center;
+      opacity: 0;
+      -webkit-transition: opacity 300ms;
+      -moz-transition: opacity 300ms;
+      -o-transition: opacity 300ms;
+      transition: opacity 300ms; }
+      #shop .shop-item .text-content span {
+        position: relative;
+        display: block;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 28px; }
+      #shop .shop-item .text-content:hover {
+        opacity: 1; }
+  @media (max-width: 480px) {
+    #shop {
+      padding: 100px 0; } }
+
+@font-face {
+  font-family: "AvenirLTStd-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../fonts/AvenirLTStd-Light-webfont.eot");
+  src: url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.woff?#iefix") format("embedded-opentype"), url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.ttf") format("truetype"), url("../../fonts/AvenirLTStd-Light/AvenirLTStd-Light-webfont.svg?#AvenirLTStd-Light") format("esvg"); }
+#footer {
+  padding: 200px 0 200px;
+  background-image: url("../../img/jj-footer.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+  #footer h3, #footer p {
+    font-family: "AvenirLTStd-Light", "sans-serif";
+    font-weight: normal;
+    letter-spacing: 0;
+    color: #fff; }
+  #footer h3 {
+    text-transform: uppercase; }
+  #footer p {
+    margin-bottom: 4px; }
+  #footer a {
+    display: block;
+    margin-bottom: 4px;
+    color: #949494; }
+  #footer .copyright {
+    margin-top: 200px; }
+    @media (max-width: 480px) {
+      #footer .copyright {
+        margin-top: 100px; } }
+  @media (max-width: 480px) {
+    #footer {
+      padding: 100px 0; } }
+
+/*# sourceMappingURL=main.css.map */

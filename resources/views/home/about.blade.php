@@ -1,0 +1,13 @@
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-2 col-md-8 text-center">
+                <p>Dutch DJ/producer Julian Jordan is at the vanguard of the country’s new generation of dance music hotshots, with a mightily impressive track record in his short time in the game. He brings a fresh spin to the dance scene, fusing some of its trademark sound and bombast with exciting new twists and influences that so far has seen the likes of MTV cite him as “one to watch”.</p>
+                <p>“I have to say, I really like people that just do their own thing and don’t follow the hype.” he explains of his musical ethos. “I like to think outside of the box, and what inspires me are other artists who do that as well.” A slew of releases have proved that he is fully able to put his money where his mouth is, while DJ sets everywhere from Electric Daisy Carnival to Tomorrowland have made it clear that he is adept at translating this ethos for the dancefloor. “I know labels are looking for fresh tracks that could be the new hype. So, don’t follow the hype; create it!”</p>
+                <p>There’s also the matter of his full-throttle, constantly evolving live set – something you can expect to see more of in the near future. As well as working tirelessly in the studio to continue developing his own sound – with a focus on new solo productions – Julian is also launching his own event concept: Play On. With a world tour in the works, it’s set to become a mainstay of the EDM landscape over the next few years.</p>
+                <p>“I'm really proud of my whole career so far and the choices I've made, but of course my Beatport #1 is one of my greatest achievements” he beams. “I'm really proud of my own upcoming Play On concept as well. With Play On I want to create a bigger picture than only DJing. I want everything I do to be part of Play On style. My social media, productions, fashion, designs, parties… but I’ll reveal more about that soon…”</p>
+                <p>Ask him about his ambitions for the future and it’s clear that he’s a dedicated artist who is highly driven to achieve his lofty goals. He wants to become “more professional and more creative” in everything he does, with ambitions to reach and play to even bigger crowds still. “I want to create a vibe around Julian Jordan and Play On that's accessible to a lot of people. It's going to be more like a movement.” With such a huge, loyal fanbase already amassed and such a clear vision driving it forward, we don’t doubt that for a minute.</p>
+            </div>
+        </div>
+    </div>
+</div>
