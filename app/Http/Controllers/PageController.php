@@ -46,7 +46,7 @@ class PageController extends Controller
 		$api = new SpotifyWebAPI\SpotifyWebAPI();
 		$api->setAccessToken($accessToken);
 
-		$albums = $api->getArtistAlbums('2vUCVkeZjzDcaoX4gagHdV', ['album_type' => 'single', 'limit' => '4']);
+		$albums = $api->getArtistAlbums('2vUCVkeZjzDcaoX4gagHdV', ['album_type' => 'single', 'limit' => '4', 'market' => 'NL']);
 
     	return view('home.index', compact('response', 'albums'));
     }
