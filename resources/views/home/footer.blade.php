@@ -13,9 +13,8 @@
             </div>
             <div class="col-md-4">
                 <h3>Press / Pr</h3>
-                <p>The Media Nanny / Jose Woldring </p>
-                <a href="mailto:jose@themediananny.nl">jose@themediananny.nl</a>
-                <p>tel: +31 (0)6 1004 0007</p>
+                <p>The Media Nanny</p>
+                <a href="mailto:zoe@themediananny.nl ">zoe@themediananny.nl </a>
             </div>
         </div>
         <div class="row">
