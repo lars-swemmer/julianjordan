@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use SpotifyWebAPI;
 
 class PageController extends Controller
 {
@@ -32,6 +33,21 @@ class PageController extends Controller
 		// close cURL resource, and free up system resources
 		curl_close($ch);
 
-    	return view('home.index', compact('response'));
+		// get spotify latest tracks: needs to be modified to always use access/refresh token (new api changes)
+		$session = new SpotifyWebAPI\Session(
+		    env('SPOTIFY_CLIENT_ID'),
+		    env('SPOTIFY_CLIENT_SECRET'),
+		    env('SPOTIFY_REDIRECT_URI')
+		);
+
+		$session->requestCredentialsToken();
+		$accessToken = $session->getAccessToken();
+
+		$api = new SpotifyWebAPI\SpotifyWebAPI();
+		$api->setAccessToken($accessToken);
+
+		$albums = $api->getArtistAlbums('2vUCVkeZjzDcaoX4gagHdV', ['album_type' => 'single', 'limit' => '4']);
+
+    	return view('home.index', compact('response', 'albums'));
     }
 }
