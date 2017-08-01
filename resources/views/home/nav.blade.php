@@ -17,8 +17,10 @@
                 <li><a class="page-scroll" href="#tour">Tour</a></li>
                 <li><a class="page-scroll" href="#music">Music</a></li>
                 <li><a target="_blank" href="http://www.julianjordanshop.com/">Shop</a></li>
+                <li><a target="_blank" href="http://goldkidrecords.com">GOLDKID Records</a></li>
                 <li><a target="_blank" href="http://eepurl.com/bPGhOD">Newsletter</a></li>
                 <li><a class="page-scroll" href="#footer">Contact</a></li>
+                <li><a target="_blank" href="https://open.spotify.com/artist/2vUCVkeZjzDcaoX4gagHdV"><i class="fa fa-spotify" aria-hidden="true"></i></a></li>
                 <li><a class="socials" target="_blank" href="https://www.instagram.com/itsjulianjordan/"><i class="fa fa-instagram"></i></a></li>
                 <li><a class="socials" target="_blank" href="https://www.facebook.com/itsjulianjordan"><i class="fa fa-facebook-official"></i></a></li>
                 <li><a class="socials" target="_blank" href="https://twitter.com/JulianJordan"><i class="fa fa-twitter-square"></i></a></li>
