@@ -9,7 +9,7 @@
             </div>
             <div class="col-md-4">
                 <h3>Management</h3>
-                <a href="mailto:management@julianjordan.com">robert@davidlewis.nl</a>
+                <a href="mailto:info@julianjordan.com">info@julianjordan.com</a>
             </div>
             <div class="col-md-4">
                 <h3>Press / Pr</h3>
